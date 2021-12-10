@@ -1,6 +1,12 @@
-.titleHeader {
+.titleHeader{
   position: absolute;
   text-align: center;
   top: 20%;
   left: 50%;
+}
+.ennemies{
+  background-color: black;
+  position: absolute;
+  top: 30px;
+  left: 90px;
 }
