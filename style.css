@@ -14,6 +14,7 @@
 }
 
 .boardCase {
+  background-color: #000000;
   position: absolute;
   width: var(--caseW);
   height: var(--caseH);
