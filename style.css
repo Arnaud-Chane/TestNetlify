@@ -22,3 +22,12 @@
   left: var(--posX);
 
 }
+
+.boardCase2 {
+  background-color: #000000;
+  position: absolute;
+  width: var(--caseW);
+  height: var(--caseH);
+  top: var(--posY)+100;
+  left: var(--posX)+100;
+}
