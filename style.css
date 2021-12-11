@@ -1,6 +1,23 @@
+:root {
+ --posX: 20px;
+ --posY: 20px;
+ --caseW: 100px;
+ --caseH: 100px; 
+}
+
+
 .titleHeader {
   position: absolute;
   text-align: center;
   top: 20%;
   left: 50%;
+}
+
+.boardCase {
+  position: absolute;
+  width: var(--caseW);
+  height: var(--caseH);
+  top: var(--posY);
+  left: var(--posX);
+
 }
