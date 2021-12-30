@@ -13,6 +13,14 @@
   left: 50%;
 }
 
+<<<<<<< HEAD
+.blockIA {
+  position: absolute;
+  background-color: black;
+  top: 70%;
+  left: 70%;
+}
+=======
 .boardCase {
   background-color: #000000;
   position: absolute;
@@ -31,3 +39,4 @@
   top: var(--posY)+100;
   left: var(--posX)+100;
 }
+>>>>>>> e81982a8e38fb8a4905cb1c95fbb64ed5c201432
