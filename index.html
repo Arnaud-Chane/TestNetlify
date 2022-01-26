@@ -1,67 +1,92 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <title>Test - Website</title>
+  <style rel="stylesheet" href="style.css"></style>
 </head>
 <body>
-<<<<<<< HEAD
-  <div id="start">Start Quiz !</div>
-  <div id="quiz" style="display: none;">
-  <div id="question"><p>Question</p>
-    <div id="timer">
-      <div id="counter"> 6 </div>
-      <div id="bTimeGauge"></div>
-      <div id="timeGauge"></div>
+
+  <div id="Experiences">Expériences
+    <div id="ExpPro">Expériences Professionnelles
+        <div id="ExpPro">
+            <div class="ExpProTitle">Technicien Support Helpdesk</div>
+            <div class="ExpProEntreprise">Mesoigner</div>
+            <div class="ExpProDate">Decembre 2020 - Aujourd'hui</div>
+            <div class="ExpProLocation">Bordeaux - FRANCE</div>  
+            <div class="ExpProTasks"></div>
+            <div class="ExpProApp">
+            <ul>
+                <li></li>
+            </ul>
+            </div> 
+        </div>
+
+        <div id="ExpPro">
+            <div class="ExpProTitle">Conseiller Support Technique CRC</div>
+            <div class="ExpProEntreprise">Sogetrel</div>
+            <div class="ExpProDate">Février 2020 - Décembre 2020</div>
+            <div class="ExpProLocation">Nancy - FRANCE</div>  
+            <div class="ExpProTasks"></div>
+            <div class="ExpProApp">
+            <ul>
+                <li></li>
+            </ul>
+            </div> 
+        </div>
+
+
+        <div id="ExpPro">
+            <div class="ExpProTitle">Opérateur Pôle Sécurité des Tiers</div>
+            <div class="ExpProEntreprise">Enedis (Ex-ERDF)</div>
+            <div class="ExpProDate">Janvier 2019 - Novembre 2019</div>
+            <div class="ExpProLocation"></div>  
+            <div class="ExpProTasks"></div>
+            <div class="ExpProApp">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            </div> 
+        </div>
+
+
+        <div id="ExpPro">
+            <div class="ExpProTitle"></div>
+            <div class="ExpProEntreprise"></div>
+            <div class="ExpProDate"></div>
+            <div class="ExpProLocation"></div>  
+            <div class="ExpProTasks"></div>
+            <div class="ExpProApp">
+            <ul>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            </div> 
+        </div>
     </div>
-    <div id="choices">
-      <div class="choice" id="A" onclick="checkAnswer('A')">A</div>
-      <div class="choice" id="B" onclick="checkAnswer('B')">B</div>
-      <div class="choice" id="C" onclick="checkAnswer('C')">C</div>
-    </div>
-    <div id="progess"> <div class="prog"></div>
   </div>
-  <div id="scoreContainer" style="display: none;">
-    <p>50%</p>
-  </div>
-  <script>
-    const start = document.getElementById("start");
-    const quiz = document.getElementById("quiz");
-    const question = document.getElementById("question");
-    const counter = document.getElementById("counter");
-    const timeGauge = document.getElementById("timeGauge");
-    const choiceA = document.getElementById("A");
-    const choiceB = document.getElementById("B");
-    const choiceC = document.getElementById("C");
-    const progress = document.getElementById("progress");
-    const scoreContainer = document.getElementById("scoreContainer");
-=======
-  <div class="titleHeader">Hello World.</div>
-	 <div class="boardCase"></div>
-  <div class="boardCase2"></div>
+
+
+  <div id="ExpPerso">Expériences Personnelles</div>
 
 
 
 
+  <div id="Competences">Compétences</div>
+  <div id="NomPrenom">Arnaud Chane</div>
+<!-- à placer juste en de dessous de mon nom -->
+  <div id="APropos">À propos de moi</div> 
+<!-- -->
+  <div id="Formations">Formations</div>
+  <div id="Langues">Langues</div>
 
->>>>>>> e81982a8e38fb8a4905cb1c95fbb64ed5c201432
 
-    let questions = [
-      {
-        question : "Where do you want to go ?",
-	choiceA : "Left",
-	choiceB : "Foreward",
-	choiceC : "Right",
-	correct : "B"
-      },
-      {
-        question : "Do you need to fight the monster ?",
-	choiceA : "Yes",
-	choiceB : "No",
-	choiceC : "Not here, they're friendly."
-	correct : "
-      }
-    ];
-    
-  </script>
+
+  <script src="script.js"></script>
 </body>
 </html>
