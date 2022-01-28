@@ -82,7 +82,7 @@
     </ul>
     </div>
 </div>
-*/
+
 
 
 
@@ -98,6 +98,37 @@ function addInnerToExpPro(){
   divInnerExpPro.innerHTML  = document.getElementById("ExpProInner").innerHTML;
   document.getElementById("rightAfterExpPro").appendChild(divInnerExpPro);
 };
+
+
+*/
+var ExpProSectionStyle = document.getElementById("Experiences");
+var ExperiencesId = ExpProSectionStyle.id;
+
+function ShowExpPro() {
+  var emptyDiv = document.createElement("div");
+  emptyDiv.innerHTML = "";
+  document.ExperiencesID.appendChild(emptyDiv);
+
+  var showExpProSection = document.getElementById("ExpProSection");
+  showExpProSection.style.visibility = "visible";
+  showExpProSection.style.display = "inline";
+};
+
+
+
+
+
+ExpProSectionStyle.setAttribute("onclick", "ShowExpPro()");
+console.log(ExpProSectionStyle);
+
+
+
+
+
+
+
+
+
 
 
 
