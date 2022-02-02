@@ -1,42 +1,22 @@
-:root {
- --posX: 20px;
- --posY: 20px;
- --caseW: 100px;
- --caseH: 100px; 
+body {
+  overflow: auto;
 }
 
-
-.titleHeader {
-  position: absolute;
-  text-align: center;
-  top: 20%;
-  left: 50%;
-}
-
-<<<<<<< HEAD
-.blockIA {
-  position: absolute;
+.navbar {
+  position: fixed;
   background-color: black;
-  top: 70%;
-  left: 70%;
-}
-=======
-.boardCase {
-  background-color: #000000;
-  position: absolute;
-  width: var(--caseW);
-  height: var(--caseH);
-  top: var(--posY);
-  left: var(--posX);
-
+  top: 0;
+  width: 100%;
+  overflow: hidden;
 }
 
-.boardCase2 {
-  background-color: #000000;
-  position: absolute;
-  width: var(--caseW);
-  height: var(--caseH);
-  top: var(--posY)+100;
-  left: var(--posX)+100;
+.navbar div {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  overflow: auto;
 }
->>>>>>> e81982a8e38fb8a4905cb1c95fbb64ed5c201432

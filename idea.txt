@@ -15,6 +15,11 @@ Zoom
 Youtube
 Référencement
 Formation
+SIDEP
+AMELI PRO
+Génération de QR Code
+
+
 
 - Gestion des appels entrants et sortants
 - Suivi dossier
