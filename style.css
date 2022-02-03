@@ -1,5 +1,6 @@
 body {
   overflow: auto;
+  margin: 0%;
 }
 
 .navbar {
@@ -7,7 +8,7 @@ body {
   background-color: black;
   top: 0;
   width: 100%;
-  overflow: hidden;
+  overflow: auto;
 }
 
 .navbar div {
@@ -15,8 +16,14 @@ body {
   display: block;
   color: #f2f2f2;
   text-align: center;
-  padding: 14px 16px;
+  padding: 25px 20px;
   text-decoration: none;
   font-size: 17px;
   overflow: auto;
+}
+
+.navbar div:hover {
+  background-color: white;
+  color: black;
+  border-radius: 50px;
 }
