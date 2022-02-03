@@ -1,5 +1,4 @@
 body {
-  overflow: auto;
   margin: 0%;
 }
 
@@ -8,7 +7,6 @@ body {
   background-color: black;
   top: 0;
   width: 100%;
-  overflow: auto;
 }
 
 .navbar div {
@@ -19,7 +17,6 @@ body {
   padding: 25px 20px;
   text-decoration: none;
   font-size: 17px;
-  overflow: auto;
 }
 
 .navbar div:hover {
@@ -27,3 +24,30 @@ body {
   color: black;
   border-radius: 50px;
 }
+
+.insideTab {
+  position: absolute;
+  top: 100px;
+  left: 60px;                            
+  float: left;
+  display: block;
+  text-align: left;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
