@@ -7,13 +7,22 @@
 </head>
 <body>
 
+<!-- 
+  <div id="NomPrenom"></div>
+  <div id="photoArnaud"></div>
+  <!-- à placer juste en de dessous de mon nom -->
+-->
+
 <div class="navbar">
   <div id="Experiences">Expériences</div>
   <div id="Competences">Compétences</div>
-  <div id="NomPrenom">Arnaud Chane</div>
-  <img src="" id="photoArnaud">
-  <!-- à placer juste en de dessous de mon nom -->
-  <div id="APropos">À propos de moi</div> 
+  <div id="APropos">
+    <img id="photoProfile" src="images/photoProfile.jpg"></img>
+    <br>
+    <span id="NomPrenom">Arnaud Chane</span>
+    <br>
+    <span>À propos de moi</span>
+  </div> 
   <div id="Formations">Formations</div>
   <div id="Langues">Langues</div>
 </div>
@@ -205,10 +214,11 @@
       </ul>
 
   <!-- Fin Partie Langues -->
-
-    <script src="scriptShowHideList.js"></script>
-    <script src="switchFunction.js"></script>
-
 </div>
+
+<script src="scriptShowHideList.js"></script>
+<script src="switchFunction.js"></script>
+<script src="personnVisuel.js"></script>
+
 </body>
 </html>
