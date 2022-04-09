@@ -1,0 +1,51 @@
+body {
+  margin: 0%;
+}
+
+.navbar {
+  position: fixed;
+  display: flex;
+  background-color: black;
+  top: 0;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: baseline;
+}
+
+.navbar div {
+  display: block;
+  text-align: center;
+  color: #f2f2f2;
+  padding: 25px 20px;
+  font-size: 17px;
+}
+
+.navbar div:hover {
+  background-color: white;
+  color: black;
+  border-radius: 50px;
+}
+
+.insideTab {
+  position: absolute;
+  top: 250px;
+  left: 60px;                            
+  float: left;
+  display: block;
+  text-align: left;
+  padding: 25px 20px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#photoProfile {
+  height: 100px;
+  width: 100px;
+  border-radius: 50%;
+}
+
+
+
+
+
+
