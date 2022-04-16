@@ -9,7 +9,6 @@ body {
   top: 0;
   width: 100%;
   justify-content: space-evenly;
-  align-items: baseline;
   z-index: 1;
 }
 
@@ -27,7 +26,6 @@ body {
 .navbar div:hover {
   background-color: white;
   color: black;
-  border-radius: 50px;
 }
 
 .insideTab {
@@ -39,7 +37,7 @@ body {
   padding: 25px 20px;
   text-decoration: none;
   font-size: 17px;
-  z-index: 250;
+  z-index: -500;
   justify-content: center;
 }
 
