@@ -1,33 +1,50 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-  <meta charset="UTF-8">
-  <title>Test - Website</title>
+  <meta charset="utf-8">
+  <title>Arnaud CHANE</title>
   <link rel="stylesheet" href="style.css"></link>
 </head>
+
 <body>
+  <div class="banner">
+    <div class="navbar">
+      <ul>
+        <li><a class="tab" id="Experiences">Expériences</a></li>
+        <li><a class="tab" id="Competences">Compétences</a></li>
+      </ul>
+      <ul>
+        <li><a id="APropos"><img id="photoProfile" src="images/photoProfile.jpg"></img></a></li>
+      </ul>
+      <ul>
+        <li><a class="tab" id="Formations">Formations</a></li>
+        <li><a class="tab" id="Langues">Langues</a></li>
+      </ul>
+    </div>
 
-<!-- 
-  <div id="NomPrenom"></div>
-  <div id="photoArnaud"></div>
-  <!-- à placer juste en de dessous de mon nom -->
--->
-
-<div class="navbar">
-  <div id="Experiences">Expériences</div>
-  <div id="Competences">Compétences</div>
-  <div id="APropos">
-    <img id="photoProfile" src="images/photoProfile.jpg"></img>
-<!--
-    <br>
-    <span id="NomPrenom">Arnaud Chane</span>
-    <br>
-    <span>À propos de moi</span>
--->
-  </div> 
-  <div id="Formations">Formations</div>
-  <div id="Langues">Langues</div>
-</div>
+    <div class="content">
+      <h1>Arnaud CHANE</h1>
+      <div id="AProposDescr">
+        Dynamique et motivé, j’ai pu acquérir discipline et rigueur grâce à mes expériences à l’étranger ainsi qu’au sein de grandes companies françaises. Sachant rapidement m’adapter, je sais me surpasser et faire preuve d’autonomie. Pour aider l’entreprise à atteindre ses objectifs, je saurai me montrer créatif et réactif.
+      </div>
+      <section class="contact">
+          <div id="linkedin" class="icon">
+            <a href="https://fr.linkedin.com/in/arnaud-chane">
+              <img src="https://img.icons8.com/color/48/000000/linkedin-circled--v1.png" href="https://fr.linkedin.com/in/arnaud-chane"/>
+            </a>
+          </div>
+          <div id="github" class="icon">
+            <a href="https://github.com/Arnaud-Chane">
+              <img src="https://img.icons8.com/ios-glyphs/48/000000/github.png"/>
+            </a>
+          </div>
+          <div id="email" class="icon">
+            <a href="mailto:arnaud.chane.dev@gmail.com">
+              <img src="https://img.icons8.com/fluency/48/000000/email-sign.png"/>
+            </a> 
+          </div>
+      </section>
+    </div>
 
 
 <div class="insideTab">
@@ -146,19 +163,17 @@
 
   <!-- Partie À Propos de moi -->
 
-
+<!--
       <div id="AProposDescr" style="display: none;">
         Dynamique et motivé, j’ai pu acquérir discipline et rigueur grâce à mes expériences à l’étranger ainsi qu’au sein de grandes companies françaises. Sachant rapidement m’adapter, je sais me surpasser et faire preuve d’autonomie. Pour aider l’entreprise à atteindre ses objectifs, je saurai me montrer créatif et réactif.
 
         <div class="contact">
-          <!-- mettre icone mail -->
           <div class="mail">arnaud.chane.dev@gmail.com</div>
           
-          <!-- mettre icone Github -->
           <div class="iconGitHub">Mon Portefolio</div>
         </div>
       </div>
-
+-->
 
 
 
@@ -218,27 +233,11 @@
 
 
 
-<section class="footer">
-    <div id="linkedin" class="icon">
-      <a href="https://fr.linkedin.com/in/arnaud-chane">
-        <img src="https://img.icons8.com/color/48/000000/linkedin-circled--v1.png" href="https://fr.linkedin.com/in/arnaud-chane"/>
-      </a>
-    </div>
-    <div id="github" class="icon">
-      <a href="https://github.com/Arnaud-Chane">
-        <img src="https://img.icons8.com/ios-glyphs/48/000000/github.png"/>
-      </a>
-    </div>
-    <div id="email" class="icon">
-      <a href="mailto:arnaud.chane.dev@gmail.com">
-        <img src="https://img.icons8.com/fluency/48/000000/email-sign.png"/>
-      </a> 
-    </div>
-</section>
 
+
+  </div>
 <script src="scriptShowHideList.js"></script>
 <script src="switchFunction.js"></script>
 <script src="personnVisuel.js"></script>
-
 </body>
 </html>
