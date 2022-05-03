@@ -102,29 +102,45 @@
 
 
 
-.icon {
+button {
   width: 48px;
   height: 48px;
   border: 1px black;
   background: white;
   border-radius: 50%;
   cursor: pointer;
+  position: relative;
+  overflow: hidden;
+}
+
+#linkedin {
+  background-image: url("https://img.icons8.com/color/48/000000/linkedin-circled--v1.png");
+}
+
+#github {
+  background-image: url("https://img.icons8.com/ios-glyphs/48/000000/github.png");
+}
+
+#email {
+  background-image: url("https://img.icons8.com/fluency/48/000000/email-sign.png");
 }
 
 span {
-  width: 0px;
-  height: 100%;
-  border: 1px white;
+  width: 0;
+  height: 49px;
   background: black;
   border-radius: 50%;
-  z-index: 2;
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  z-index: 1;
   transition: 0.5s;
 }
 
-.icon span:hover{
+button:hover span{
   width: 100%;
 }
 
-.icon:hover{
+button:hover{
   border: none;
 }
